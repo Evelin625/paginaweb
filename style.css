@@ -1,0 +1,146 @@
+.todo{
+    background-color: rgb(125, 218, 122); /*color de fondo*/
+}
+
+
+/*encabezado*/
+.encabezado{
+    display: flex; /*habilitar flexbox para el contenedor*/
+    align-items: center; /*alinear los elementos verticalmente*/
+    justify-content: center; /*centra los elementos horizontalmente*/
+    background: rgb(141, 255, 106); /*color de fondo*/
+    border-radius: 10px; /*redondear las esquinas del cuadrado*/
+}
+/*logo*/
+.logo{
+    width: 560px; /*ancho*/
+    height: 320px; /*altura*/
+    object-fit: cover; /*ajusta la imagen para cubrir el contenedor*/
+}
+
+
+/*subtitulo*/
+.subti{
+    background-color: rgb(255, 255, 255); /*color de fondo*/
+    color: rgb(6, 73, 0); /*color del texto*/
+    font-family: 'Times New Roman', Times, serif; /*tipo de letra*/
+    text-align: center; /*centrar titulo*/
+    font-size: 30px; /*tamaño del texto*/
+    padding: 20px; /*espacio interno alrededor del texto*/
+    margin-top: 7px; /*espacio margen superior*/
+    margin-bottom: 0%; /*eliminar el margen inferior*/
+    border-radius: 10px; /*redondear las esquinas del cuadrado*/
+}
+
+
+/*DOS PARTES -> SOBRE MÍ -> PORTAFOLIO */
+.dp{
+    display: flex; /*habilitar flexbox para el contenedor*/
+    margin-top: 8px; /*espacio superior*/
+}
+/* -> SOBRE MÍ*/
+.p1{
+    background-color: rgb(255, 255, 255); /*color de fondo*/
+    padding: 20px; /*espacio interno alrededor del texto*/
+    width: 20%; /*ancho*/
+    margin-right: 9px; /*margen derecho*/
+    border-radius: 10px; /*redondear las esquinas del cuadrado*/
+}
+
+/*titulo SOBRE MÍ*/
+.acercademi{
+    margin-top:0; /*espacio superior*/
+    margin-bottom: 2px; /*espacio inferior*/
+    text-align: center; /*centrar titulo*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif /*tipo de letra*/
+}
+/*descripción sobre mi*/
+.des{
+    margin-top: 0; /*espacio superior*/
+    margin-bottom: 0; /*espacio inferior*/
+    text-align: justify; /*justifica el texto*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif /*tipo de letra*/
+}
+/*titulo mi enfoque*/
+.enfo{
+    margin-top: 12px; /*espacio superior*/
+    margin-bottom: 0; /*espacio inferior*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif /*tipo de letra*/
+}
+/*descripción mi enfoque*/
+.desenfo{
+    font-size: 15px;
+    margin-top: 2px; /*espacio superior*/
+    margin-bottom: 0; /*espacio inferior*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Tmes New Roman', serif
+}
+/*CONCLUSIÓN*/
+.conc{
+    margin-top: 12px; /*espacio superior*/
+    margin-bottom: 0; /*espacio inferior*/
+    text-align: justify; /*justifica el texto*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* -> PORTAFOLIO*/
+.portafolio{
+    padding: 20px; /*espacio interno alrededor del texto*/
+    border-radius: 10px; /*redondear las esquinas del cuadrado*/
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif /*tipo de letra*/
+    
+}
+/*titulo portafolio*/
+.tip{
+    background-color: rgb(199, 255, 202);
+    text-align: center; /*centrar texto*/
+    padding: 5px; /*espacio interno alrededor del texto*/
+    margin-top: 0; /*espacio superior*/
+    margin-bottom: 0; /*espacio inferior*/
+    border-radius: 509px; /*redondear las esquinas del cuadrado*/
+}
+/*titulo y subtitulos anuncios-logos*/
+.tian{
+    margin-top: 5px; /*espacio superior*/
+    margin-bottom: 5px; /*espacio inferior*/
+}
+/*contenedor de imagenes*/
+.imagenesportafolio{
+    display: flex; /*habilitar flexbox para el contenedor*/
+    flex-wrap: wrap; /*permite que las imágenes se envuelvan en varias fila*/
+    justify-content: space-between; /*distribuye las imágenes uniformemente*/
+}
+
+/*Imagenes historia instagram*/
+.imaginsta {
+    width: 200px;
+    height: 370px;
+    margin-bottom: 10px; /*espacio inferior*/
+    
+}
+
+/*Imagenes documento a4*/
+.imagendocumento{
+    width: 200px; /*ancho*/
+    height: 290px; /*altura*/
+    margin-bottom: 10px; /*espacio inferior*/
+    margin-right: 10px; /*espacio a la derecha*/
+}
+
+/*Imagenes logos*/
+.imagenlogoss{
+    width: 200px; /*ancho*/
+    height: 200px; /*altura*/
+    margin-bottom: 10px; /*espacio inferior*/
+    margin-right: 10px; /*espacio a la derecha*/
+}
+/*PIE DE PAGINA*/
+.piedpag {
+    padding: 20px; /*espacio interno alrededor del texto*/
+    border-radius: 10px; /*redondear las esquinas del cuadrado*/
+    margin-top: 8px; /*espacio superior*/
+    margin-bottom: 5px; /*espacio inferior*/
+    background-color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif /*tipo de letra*/
+
+}
