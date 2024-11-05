@@ -127,6 +127,14 @@
     margin-right: 10px; /*espacio a la derecha*/
 }
 
+/*Imagenes documento (carta tamaño EE. UU. vertical)*/
+.imagendocumentoeu{
+    width: 200px; /*ancho*/
+    height: 270px; /*altura*/
+    margin-bottom: 10px; /*espacio inferior*/
+    margin-right: 10px; /*espacio a la derecha*/
+}
+
 /*Imagenes logos*/
 .imagenlogoss{
     width: 200px; /*ancho*/
